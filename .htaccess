@@ -1,0 +1,10 @@
+Options -Multiviews
+RewriteEngine On
+
+RewriteBase /gomsu_shop
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
