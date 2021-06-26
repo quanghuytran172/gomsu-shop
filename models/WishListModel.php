@@ -42,7 +42,6 @@ class WishListModel extends BaseModel
             if (in_array($productCode, $productsInWishList)) {
                 if (($key = array_search($productCode, $productsInWishList)) !== false) {
                     unset($productsInWishList[$key]);
-                    var_dump($productsInWishList);
                 }
             }
             $_SESSION['wishlist'] = $productsInWishList;
