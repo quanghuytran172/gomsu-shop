@@ -42,7 +42,7 @@ require_once('models/WishListModel.php');
             <div class="header-rps">
                 <div class="header-box-2">
                     <div class="image-header-2">
-                        <a href="site/contact"><img class="img-fluid" src="assets/images/logo/logo.jpg"></a>
+                        <a href=""><img class="img-fluid" src="assets/images/logo/logo.jpg"></a>
                     </div>
                     <div class="d-flex ml-auto">
                         <div class="icon-client">
@@ -54,7 +54,7 @@ require_once('models/WishListModel.php');
                                 <span class="favourite"><?php echo WishListModel::countItems(); ?></span>
                             </div>
                             <div class="se icon1 ic2">
-                                <a href="#">
+                                <a href="checkOrder">
                                     <i class="far fa-user"></i>
 
                                 </a>

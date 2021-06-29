@@ -2,8 +2,6 @@
 include_once('views/layouts/admin_header.php');
 ?>
 
-
-?>
 <div class="content-wrapper">
     <div class="content">
         <!-- Top Statistics -->
